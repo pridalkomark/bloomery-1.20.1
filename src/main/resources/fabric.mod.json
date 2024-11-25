@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "bloomery",
+	"version": "${version}",
+	"name": "Bloomery",
+	"description": "A mod about metals n stuff.",
+	"authors": [
+		"pin",
+		"boxed"
+	],
+	"contact": {
+		"homepage": "https://pinmac.neocities.org/",
+		"sources": "https://github.com/"
+	},
+	"license": "MIT",
+	"icon": "assets/bloomery/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"pin.macaroon.bloomery.Bloomery"
+		],
+		"client": [
+			"pin.macaroon.bloomery.BloomeryClient"
+		],
+		"fabric-datagen": [
+			"pin.macaroon.bloomery.BloomeryDataGenerator"
+		]
+	},
+	"mixins": [
+		"bloomery.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

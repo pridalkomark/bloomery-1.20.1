@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "bloomery:deepslate_steel_ore",
+    "bloomery:steel_block",
+    "bloomery:raw_steel_block"
+  ]
+}

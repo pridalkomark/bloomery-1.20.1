@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "bloomery:steel_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "bloomery:steel_ingot"
+  }
+}
