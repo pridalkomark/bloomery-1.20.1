@@ -33,7 +33,7 @@ public class GrapplingEnchant extends Enchantment {
     @Override
     public void onTargetDamaged(LivingEntity user, Entity target, int level) {
         if(target instanceof Entity){
-            target.addVelocity(knockbackPower,target.getX() - user.getX(), target.getZ() - user.getZ());
+            target.addVelocity(-(target.getX() - user.getX())/3,-(target.getY() - user.getY())/3,-( target.getZ() - user.getZ())/3);
         }
         super.onTargetDamaged(user, target, level);
     }
