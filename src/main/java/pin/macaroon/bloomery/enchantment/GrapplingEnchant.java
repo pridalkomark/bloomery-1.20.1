@@ -17,7 +17,7 @@ public class GrapplingEnchant extends Enchantment {
 
     protected GrapplingEnchant() {
         super(Rarity.UNCOMMON, EnchantmentTarget.WEAPON, new EquipmentSlot[]{EquipmentSlot.MAINHAND});
-        knockbackPower = 0.4;
+        knockbackPower = 1.4;
     }
 
     @Override
@@ -32,8 +32,8 @@ public class GrapplingEnchant extends Enchantment {
 
     @Override
     public void onTargetDamaged(LivingEntity user, Entity target, int level) {
-        if(target instanceof LivingEntity){
-            ((LivingEntity) target).takeKnockback(knockbackPower,target.getX() - user.getX(), target.getZ() - user.getZ());
+        if(target instanceof Entity){
+            target.addVelocity(knockbackPower,target.getX() - user.getX(), target.getZ() - user.getZ());
         }
         super.onTargetDamaged(user, target, level);
     }

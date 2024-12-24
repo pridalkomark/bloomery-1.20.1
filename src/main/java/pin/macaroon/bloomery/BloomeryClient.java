@@ -9,5 +9,6 @@ public class BloomeryClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BOXED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRATE_BLOCK, RenderLayer.getTranslucent());
     }
 }

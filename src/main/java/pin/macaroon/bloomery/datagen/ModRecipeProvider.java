@@ -147,6 +147,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.DEEPSLATE), conditionsFromItem(Blocks.DEEPSLATE))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.ELEMENTITE_TEMPLATE)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.GRATE_BLOCK, 1)
+                .pattern("S S")
+                .pattern(" S ")
+                .pattern("S S")
+                .input('S', ModItems.STEEL_INGOT)
+                .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.GRATE_BLOCK)));
+
         offerCustomUpgradeRecipe(exporter, Items.NETHERITE_HOE, RecipeCategory.COMBAT, ModItems.SYTHE, ModItems.ELEMENTITE_TEMPLATE, ModItems.ELEMENTITE);
     }
 
