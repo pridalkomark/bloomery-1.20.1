@@ -31,6 +31,7 @@ public class ModItems {
     public static final Item ELEMENTITE = registerItem("elementite_ingot", new Item(new FabricItemSettings().fireproof().rarity(Rarity.RARE)));
 
     public static final Item ELEMENTITE_TEMPLATE = registerItem("elementite_smithing_template", new Item(new FabricItemSettings().fireproof().rarity(Rarity.RARE)));
+    public static final Item CRYSTAL_METH = registerItem("crystal_meth", new Item(new FabricItemSettings().food(ModFoodComponents.METH_FOOD)));
 
     public static final Item SYTHE = registerItem("elementite_scythe", new SytheItem(
             ModToolMaterial.SCYTHE_MATERIAL,
@@ -56,6 +57,7 @@ public class ModItems {
 
     private static void addItemsToFoodItemGroup(FabricItemGroupEntries entries){
         entries.addAfter(Items.GOLDEN_APPLE, ModItems.STEEL_APPLE);
+        entries.addAfter(Items.SPIDER_EYE, ModItems.CRYSTAL_METH);
         entries.addAfter(ModItems.CREEPER_COOKIE, ModItems.SPORT_SZELET);
         entries.addAfter(Items.COOKIE, ModItems.CREEPER_COOKIE);
         //entries.add();

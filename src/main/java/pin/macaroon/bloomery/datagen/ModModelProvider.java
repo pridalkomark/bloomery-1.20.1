@@ -43,5 +43,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ELEMENTITE_TEMPLATE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.AEROBLADE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.CRYSTAL_METH, Models.GENERATED);
     }
 }

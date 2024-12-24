@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "bloomery:steel_sword"
+    },
+    "S": {
+      "item": "bloomery:steel_ingot"
+    }
+  },
+  "pattern": [
+    "S S",
+    " I ",
+    "S S"
+  ],
+  "result": {
+    "item": "bloomery:aeroblade"
+  },
+  "show_notification": true
+}

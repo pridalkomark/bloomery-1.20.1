@@ -22,4 +22,13 @@ public class ModFoodComponents {
             .saturationModifier(0.1F)
             .statusEffect(new StatusEffectInstance(ModStatusEffects.EXPLOSIVE, 1, 75), 0.5f) //amplifier a szazalek
             .build();
+    public static final FoodComponent METH_FOOD = new FoodComponent.Builder()
+            .hunger(1)
+            .saturationModifier(0.7F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 20*20, 0), 0.7F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.HASTE, 25*20, 0), 0.6F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.WITHER, 13*20, 0), 0.3F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 30*20, 0), 0.4F)
+            .alwaysEdible()
+            .build();
 }

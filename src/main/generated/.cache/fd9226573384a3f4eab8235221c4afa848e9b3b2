@@ -1,4 +1,4 @@
-// 1.20.1	2024-12-11T07:03:37.130259	Bloomery/Model Definitions
+// 1.20.1	2024-12-24T13:31:10.0874803	Bloomery/Model Definitions
 e884cc8c7ebd2dc3bcb02a5ae53f885966b4c3e8 assets\bloomery\models\item\grate.json
 7a53039e074670912c5ac130ea6323303a5000d9 assets\bloomery\models\item\steel_ingot.json
 d48c92879f56581d35474b98db9d99a7544c78c0 assets\bloomery\blockstates\raw_steel_block.json
@@ -28,5 +28,6 @@ a6a72faedd66dff3e4e414e7b729553c91b722c0 assets\bloomery\blockstates\boxed_glass
 687cc4aa8993659d458a4e0ff290697578a98caf assets\bloomery\models\block\deepslate_steel_ore.json
 702cc28f4dacc4b9937d2055bed32672b2f56b9a assets\bloomery\models\item\steel_shovel.json
 e84be335b5bc2696394608c4f8bb26e5d1e905b8 assets\bloomery\models\item\deepslate_steel_ore.json
+1e2ed170b76f8e3b21bd1c0cbd76228b70ef8afd assets\bloomery\models\item\crystal_meth.json
 277336763bd0dc01655ba912d9db6eb66233ec9d assets\bloomery\models\item\elementite_smithing_template.json
 9b6ae449d22f8d042aff2fa77bfe9200c45e9ae6 assets\bloomery\models\item\boxed_glass.json

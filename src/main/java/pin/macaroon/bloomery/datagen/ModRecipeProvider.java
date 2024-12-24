@@ -155,6 +155,22 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.GRATE_BLOCK)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.AEROBLADE, 1)
+                .pattern("S S")
+                .pattern(" I ")
+                .pattern("S S")
+                .input('S', ModItems.STEEL_INGOT)
+                .input('I', ModItems.STEEL_SWORD)
+                .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AEROBLADE)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.CRYSTAL_METH, 1)
+                .input(ModItems.STEEL_INGOT)
+                .input(Items.QUARTZ)
+                .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.CRYSTAL_METH)));
+
+
         offerCustomUpgradeRecipe(exporter, Items.NETHERITE_HOE, RecipeCategory.COMBAT, ModItems.SYTHE, ModItems.ELEMENTITE_TEMPLATE, ModItems.ELEMENTITE);
     }
 
