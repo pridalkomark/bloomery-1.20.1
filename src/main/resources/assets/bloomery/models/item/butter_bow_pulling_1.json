@@ -1,0 +1,6 @@
+{
+  "parent": "bloomery:item/butter_bow",
+  "textures": {
+    "layer0": "bloomery:item/butter_bow_pulling_2"
+  }
+}

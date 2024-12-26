@@ -45,5 +45,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.AEROBLADE, Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.CRYSTAL_METH, Models.GENERATED);
+
+        // no default datagen for crossbow :(
+        //itemModelGenerator.register(ModItems.BUTTERBOW, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.BUTTERPROJECTILE, Models.HANDHELD);
     }
 }

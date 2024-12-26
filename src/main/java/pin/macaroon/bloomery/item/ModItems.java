@@ -11,6 +11,7 @@ import net.minecraft.util.Rarity;
 import pin.macaroon.bloomery.Bloomery;
 import pin.macaroon.bloomery.block.ModBlocks;
 import pin.macaroon.bloomery.item.custom.AerobladeItem;
+import pin.macaroon.bloomery.item.custom.ButterProjectileItem;
 import pin.macaroon.bloomery.item.custom.SytheItem;
 
 public class ModItems {
@@ -40,6 +41,9 @@ public class ModItems {
             10));
 
     public static final Item AEROBLADE = registerItem("aeroblade", new AerobladeItem(ModToolMaterial.STEEL, 3, -2.7F, new Item.Settings().rarity(Rarity.EPIC), 150, 1.5F));
+    public static final Item BUTTERBOW = registerItem("butter_bow", new CrossbowItem(new FabricItemSettings().maxCount(1).rarity(Rarity.RARE).maxDamage(230)));
+
+    public static final Item BUTTERPROJECTILE = registerItem("butter", new ButterProjectileItem(new FabricItemSettings().food(FoodComponents.BREAD)));
 
     private static void addItemsToBuildingBlockItemGroup(FabricItemGroupEntries entries){
         //TODO reorder the stuff to different categories

@@ -18,6 +18,7 @@ public class BloomeryDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModWorldGenerator::new);
 		pack.addProvider(ModLootTableProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
+		pack.addProvider(ModItemTagProvider::new);
 	}
 
 	@Override

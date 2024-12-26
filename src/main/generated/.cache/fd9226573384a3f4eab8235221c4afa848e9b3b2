@@ -1,4 +1,4 @@
-// 1.20.1	2024-12-24T13:31:10.0874803	Bloomery/Model Definitions
+// 1.20.1	2024-12-26T10:48:34.1672016	Bloomery/Model Definitions
 e884cc8c7ebd2dc3bcb02a5ae53f885966b4c3e8 assets\bloomery\models\item\grate.json
 7a53039e074670912c5ac130ea6323303a5000d9 assets\bloomery\models\item\steel_ingot.json
 d48c92879f56581d35474b98db9d99a7544c78c0 assets\bloomery\blockstates\raw_steel_block.json
@@ -8,8 +8,8 @@ aa01414cf02bae30b9b876ff3bfce2d56de47cb9 assets\bloomery\models\block\grate.json
 1aa943756aad671b0c8b7ecae20efa7b96a980d0 assets\bloomery\blockstates\steel_block.json
 96568fc7df289d68ce85d10b90bbd2c8fed0911b assets\bloomery\models\block\steel_block.json
 0f8fed97a1faf242f7316222f7de23fa148703e4 assets\bloomery\models\item\steel_pickaxe.json
-006c02df18ba23e8c56940ace0be67ba727c0af3 assets\bloomery\models\item\steel_apple.json
 aa2d9c4b47aa28643a821b7a487222ae430b4b7d assets\bloomery\models\item\elementite_ingot.json
+006c02df18ba23e8c56940ace0be67ba727c0af3 assets\bloomery\models\item\steel_apple.json
 d1b8f1467cc573b2a60f2b8f24507ab4ae9ddd9a assets\bloomery\blockstates\deepslate_steel_ore.json
 175784bc1e1cd73f06d445159efaf415f7e984dd assets\bloomery\models\block\test.json
 e07d1c5f669ad8ef22e823ef1e894dcda75d8c56 assets\bloomery\models\item\test.json
@@ -17,6 +17,7 @@ e07d1c5f669ad8ef22e823ef1e894dcda75d8c56 assets\bloomery\models\item\test.json
 c8acf1710901c7bc246f887c6412265a02cb7207 assets\bloomery\models\block\boxed_glass.json
 3015b29d149c598634a260e27cf5102fec9fcf55 assets\bloomery\blockstates\grate.json
 cb71ea001cd019c7e4596ec2433571b4f761b63f assets\bloomery\models\item\steel_sword.json
+b5a93e2cfedb44c5e8b3b4c76873787dd62bc15f assets\bloomery\models\item\butter.json
 e14bdeebb17df8b0280d76d1a7ea71a757d4b9bf assets\bloomery\models\item\steel_block.json
 a63e767c26c0b74b8b30f40c499c8ae817de9c22 assets\bloomery\models\item\creeper_cookie.json
 e4f3284806e9913f43400160874acca39d48c8dd assets\bloomery\models\item\sport_szelet.json
